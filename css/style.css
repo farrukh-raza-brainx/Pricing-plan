@@ -1,0 +1,192 @@
+body {
+    background-color: #f8f9fa;
+}
+h1{
+    color: #3b3663;
+    text-align: center;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+    padding: 0;
+    display: block;
+}
+h2{
+    color: #3b3663;
+    
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 185%;
+    margin-top: 30px;
+    padding: 0;
+    display: block;
+}
+.main-body{
+    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    margin: auto;
+}
+.center-card{
+    padding-bottom: 20px;
+}
+.plan-card-1{
+    border: 3px solid #e8e8e8;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-top: 40px;
+    transition: top ease 0.5s;
+    top: 0;
+    position: relative;
+    display: inline-block;
+}
+.center-card::before{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 64px 64px 0 0;
+    border-color:#0abf53 transparent transparent transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+}
+.center-card::after{
+    color: white;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    text-shadow: 0 0 2px #0abf53;
+    font-size: 1.2rem;
+}
+.center-card::after{
+    font-family: "FontAwesome";
+    content: "\f006";
+}
+.plan-card-1:hover{
+    top: -20px;
+    /* margin-top: 0; */
+}
+.plan-card-1 ul,li,p, footer{
+    color: #585858;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.duration{
+    font-size: 90%;
+    padding: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    color: #0abf53;
+    border: 1px solid darkgray;
+    border-radius: 40px;
+    display: inline;
+}
+.duration-div{
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.price{
+    text-align: center;
+    padding-bottom:  20px;
+}
+li::first-letter{
+    color: lightgreen;
+}
+.center-card.button{
+    background-color: #0abf53;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: auto;
+    padding-top: 4%;
+    height: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button{
+    width: 40%;
+    background-color: rgba(170, 170, 170, 0.1);
+    color: #0abf53;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: auto;
+    padding-top: 4%;
+    height: 30px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #0abf53;
+    color: white;
+}
+.center-card{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #0abf53;
+}
+
+#plans{
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h3 {
+    width: 100%;
+    color: #0abf53; 
+    text-align: center;
+    font-size: 90%; 
+    border-bottom: 1px solid darkgray; 
+    line-height: 0.1em;
+    margin: 10px 0 40px; 
+ } 
+ 
+ h3 span { 
+     background:#fff; 
+     padding:0 10px;
+     border: 1px solid darkgray;
+     border-radius: 40px;
+     padding: 5px 20px 5px 20px;
+ }
+ #footer {
+    height: 50px; /* the footer's total height */
+  }
+  
+  #footer-content {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 110%;
+    margin-top: 100px;
+    height: 32px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
+    padding: 8px;
+  }
+  #w3-link{
+    text-decoration: none;
+  }
+  #w3-link:visited{
+    color: #3b3663;
+  }
+  #w3-link:hover{
+    color: #0abf53;
+  }
